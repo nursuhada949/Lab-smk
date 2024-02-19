@@ -22,7 +22,6 @@ Kemudian kita pastikan untuk line dengan script "$INCLUDE clients.conf" tidak te
 Selanjutanya kita akan konfigurasi pada file clients.conf. Dengan file ini kita akan menentukan perangkat RADIUS Client yang akan terkoneksi ke FreeRadius. Kita ketikkan sebuah command line pada Terminal linux seperti berikut.
 
 ## sudo nano /etc/freeradius/clients.conf
-![user1](https://github.com/nursuhada949/Lab-smk/assets/156059402/f85d3bdc-5535-406a-a23b-ca1397d416
 
 Pada file tersebut kita akan tambahkan sebuah scri!
 pt yang berupa alamt IP Address dari RADIUS Client (Mikrotik) dan juga Secret yang akan digunakan oleh RADIUS Client terkoneksi ke FreeRadius. Kedua jenis parameter tersebut yang utama. Kita juga bisa menambahkan parameter yang lain namun hanya optional saja. Nah, seperti topologi diatas kita isikan IP Address dari Mikrotik yaitu 172.16.1.25 dan secret yaitu coba12345. Kita bisa menambahkan pada baris paling bawah dengan contoh format penulisan seperti tampilan berikut.
