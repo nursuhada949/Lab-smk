@@ -1,6 +1,6 @@
 ---
 ---
-Integrasi Mikrotik dengan FreeRadius
+# Integrasi Mikrotik dengan FreeRadius
 ## Instalasi FreeRadius
 ![topologi11](https://github.com/nursuhada949/Lab-smk/assets/156059402/17ac0745-8cf1-4880-bf72-aae163228c77)
 
